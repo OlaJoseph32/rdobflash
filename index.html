@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Preloader -->
+    <div id="preloader"></div>
+
+    <main>
+        <div class="image-con">
+            <img src="./assets/images/album.png" alt="background image">
+        </div>
+
+        <div class="content-con">
+            <header>
+                <nav class="container navBar">
+                    <div class="branding">
+                        <a href="./index.html">Bflash.</a>
+                    </div>
+                    <div class="nav-menu">
+                        <ul class="nav-List">
+                            <li class="hover-underline"><a href="#playsongs">Play Song</a></li>
+                            <li class="hover-underline"><a href="#playsongs">Top Songs</a></li>
+                            <li class="hover-underline"><a href="#about-me">About</a></li>
+                            <li class="hover-underline"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Hamburger Manu -->
+                    <div class="nav-list" onclick="openNav()">
+                        <button type="button" class="hamburger" id="menu-btn">
+                            <span class="hamburger-top"></span>
+                            <span class="hamburger-middle"></span>
+                            <span class="hamburger-bottom"></span>
+                        </button>
+                    </div>
+                </nav>
+                
+                <!-- Mobile Menu -->
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <li class="list-item" data-target="playsongs"><a href="#playsongs">Play Song</a></li>
+                        <li class="list-item" data-target="playsongs"><a href="#playsongs">Top Songs</a></li>
+                        <li class="list-item" data-target="about-me"><a href="#about-me">About</a></li>
+                        <li class="list-item" data-target="contact"><a href="#contact">Contact</a></li>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- Songs section -->
+    <section class="songs-section">
+        <div class="container" id="playsongs">
+            <h2>Top Songs:</h2>
+            <div class="music-con">
+                <div class="box">
+                    <a href="https://distrokid.com/hyperfollow/bflash2/onye-egwu-feat-mozzy-flow-x-cenaman">
+                        <div class="img-con">
+                            <img src="./assets/images/album.png" alt="Rotating Image" class="rotating-image">
+                        </div>
+                        <div class="play-con">
+                            <img src="./assets/images/ion--play-back.png" alt="">
+                            <img src="./assets/images/hugeicons--replay.png" alt="">
+                            <img src="./assets/images/ion--play-forward.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="dc">
+                    <a href="https://distrokid.com/hyperfollow/bflash2/onye-egwu-feat-mozzy-flow-x-cenaman">
+                        <h3 class="title">Onye Egwu</h3>
+                    </a>
+                    <p>Bflash x Mozzy Flow x CenaMan</p>
+                </div>
+                <div class="icon">
+                    <a href="https://distrokid.com/hyperfollow/bflash2/onye-egwu-feat-mozzy-flow-x-cenaman">
+                        <img src="./assets/images/solar--play-bold.png" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><circle cx="4" cy="12" r="1.5" fill="#fff"><animate attributeName="r" dur="0.75s" repeatCount="indefinite" values="1.5;3;1.5"/></circle><circle cx="12" cy="12" r="3" fill="#fff"><animate attributeName="r" dur="0.75s" repeatCount="indefinite" values="3;1.5;3"/></circle><circle cx="20" cy="12" r="1.5" fill="#fff"><animate attributeName="r" dur="0.75s" repeatCount="indefinite" values="1.5;3;1.5"/></circle></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me section -->
+    <section id="about-me">
+        <div class="container about-me-grid">
+            <div class="img-container">
+                <div class="imaGe">
+                    <img src="./assets/images/artiste display 2.png" alt="">
+                </div>
+            </div>
+            <div class="about-me-text">
+                <h2>About Artiste</h2>
+                <p>Bright Ogochuckwu Ukpene, also known as Bflash, is not just a Nigerian renowned hip hop artiste, but a true musical sensation. With his unique style and captivating lyrics, he has captured the hearts of music lovers all around the world.  <br> <br> 
+                    Growing up in Ore, Ondo State and Ojodu Berger in Lagos State, Bflash love for music was evident from a young age. He would spend hours writing and composing songs, honing his craft and perfecting his art. His dedication and passion for music are what sets him apart from other artists in the industry. <br> <br>
+                    He gained recognition in 2012 after releasing MY BIRTHDAY, Bflash continued to pursue his musical dreams, releasing hit after hit singles that gained him critical acclaim and numerous awards. His songs are not just about entertainment, but also about spreading positivity and inspiring his listeners to chase their dreams. <br> <br>
+                    With his upcoming releases, Bflash aims to reach even greater heights in the music industry and solidify his status as one of the top hip hop artistes in the world. Keep an eye out for Bright Ogochuckwu Ukpene, as he is truly a force to be reckoned with in the music world.
+                <p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <div class="social-links">
+                <div class="social">
+                    <a href="https://youtube.com/@bflash6328?si=rNPxn5tFru0Jn6Ar">
+                        <img src="./assets/images/logos--youtube-icon.png" width="40" height="25" alt="youtube">
+                    </a>
+                    <a href="https://linktr.ee/rdomusicocean?utm_source=linktree_profile_share">
+                        <img src="./assets/images/logos--spotify-icon.png" width="25" height="25" alt="spotify">
+                    </a>
+                    <a href="https://linktr.ee/rdomusicocean?utm_source=linktree_profile_share">
+                        <img src="./assets/images/lineicons--apple-music-alt.png" width="70" height="25" alt="apple music">
+                    </a>
+                    <a href="https://www.instagram.com/rdobflash?utm_source=qr&igsh=eWpvdHpneWtjbHIy">
+                        <img src="./assets/images/skill-icons--instagram.png" width="25" height="25" alt="instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@rdobflash?_t=ZN-8syoMgjDY3i&_r=1">
+                        <img src="./assets/images/logos--tiktok-icon.png" width="25" height="25" alt="instagram">
+                    </a>
+                    <a href="https://x.com/rdoflash?t=Zvp3Ugs30zKV8WGlth2fUg&s=09">
+                        <img src="./assets/images/pajamas--twitter.png" width="25" height="25" alt="twitter">
+                    </a>
+                    <a href="https://www.facebook.com/RDO5050">
+                        <img src="./assets/images/logos--facebook.png" width="25" height="25" alt="facebook">
+                    </a>
+                </div>
+            </div>
+            <h3 class="text-center">Connect with me on social media</h3>
+            <p class="text-center">and be the first to hear about my album release and live show </p>
+            <form id="newsletter-form" action="your-server-side-script.php" method="POST">
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="text-center">© 2025. Designed by <a href="https://www.instagram.com/devhub_byolajoseph?igsh=MTJrNHNucTYyOGRzcg%3D%3D&utm_source=qr">DevHub Tech</a></p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop">
+        <img src="./assets/images/pixelarticons--arrow-up.png" alt="">
+    </button>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

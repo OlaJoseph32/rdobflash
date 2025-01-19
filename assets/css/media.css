@@ -1,0 +1,302 @@
+/* Media */
+@media screen and (max-width: 1200px){
+/* NavBAr and Hero section */
+    /* header{background-color: antiquewhite;} */
+    .container{max-width: 1000px;}
+    #contact .container h3{
+        font-size: 1.2rem;
+        max-width: 350px;
+    }
+    
+    #contact .container p{
+        font-size: .9rem;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+
+    
+@media screen and (max-width: 1100px){
+/* header */
+    /* header{background-color: rgb(198, 120, 17);} */
+    .container{max-width: 1000px;}
+    #contact .container h3{
+        font-size: 1.2rem;
+        max-width: 350px;
+    }
+    
+    #contact .container p{
+        font-size: .9rem;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+    
+@media screen and (max-width: 960px){
+    /* header{background-color: rgb(39, 225, 210);} */
+
+    header{
+        padding: 8px 0;
+    }
+    .container{
+        max-width: 800px;
+    }
+    #about-me{padding: 1rem 0;}
+
+    .about-me-grid{gap: 10px;}
+    .imaGe{
+        height: 400px;
+        width: 300px;
+    }
+    .about-me-text h2{
+        font-size: 1.2rem;
+    }
+    .about-me-text p{
+        font-size: .9rem;
+        padding: 5px;
+    }
+    .music-con{
+        justify-self: center;
+    }
+    /* Mobile Navlist */
+    .overlay a{padding: 8px;font-size: 1.5rem;}
+    .overlay .closebtn {top: 0;right: 10px;font-size: 3rem;}
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 1rem}
+        .overlay .closebtn {
+        font-size: 2rem;
+        top: 0;
+        right: 0;
+        }
+    }
+    
+}
+    
+@media screen and (max-width: 768px){
+/* NavBAr */
+    /* header{
+        background-color: rgb(35, 198, 17);
+    } */
+    header{
+        padding: 8px 0;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .box{
+        height: 210px;
+        width: 210px;
+    }
+    .img-con img{
+        height: 140px;
+        width: 140px;
+    }
+    .play-con img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .imaGe{
+        height: 400px;
+        width: 300px;
+    }
+    .about-me-text h2{
+        font-size: 1.2rem;
+    }
+    .about-me-text p{
+        font-size: .9rem;
+    }
+    .music-con{
+        justify-self: center;
+    }
+
+        
+}
+   
+
+@media screen and (max-width: 670px){
+/* NavBAr and Hero section */
+    /* header{
+        background-color: rgb(195, 11, 231);
+    } */
+    header{padding: 10px 0;}
+    .container{max-width: 410px;margin: 0 auto;}
+
+/* Mobile Navlist */
+    .overlay a{padding: 8px;font-size: 1.5rem;}
+    .overlay .closebtn {top: 0;right: 10px;font-size: 3rem;}
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 1rem}
+        .overlay .closebtn {
+        font-size: 2rem;
+        top: 0;
+        right: 0;
+        }
+    }
+
+/* Song section */
+    .playlist .dc h3{font-size: 1.2rem;}
+    .playlist .dc p{font-size: .9rem;}
+    .songs-section h2{font-size: 1.2rem;margin: 40px 0;}
+    .box{height: 210px;width: 210px;}
+    .img-con img{height: 140px;width: 140px;}
+    .play-con img{height: 20px;width: 20px;}
+    .imaGe{height: 400px;width: 300px;}
+    .icon img{height: 20px;width: 20px;}
+    .icon svg{height: 20px;width: 20px;}
+
+
+/* About me */
+    #about-me{padding: 3rem 0;}
+    .about-me-text h2{font-size: 1rem;}
+    .about-me-text p{font-size: .9rem;}
+    .music-con{justify-self: center;}
+    .about-me-grid{display: grid;grid-template-columns: 1fr ;gap: 30px;}
+
+/* Contact section */
+    #contact{padding-top: -10px;}
+    .social-links{padding: 0 20px;}
+    .social{gap: 20px;}
+    #contact .container h3{font-size: 1.4rem;max-width: 260px;}
+    #contact .container p{font-size: .9rem;max-width: 300px;}
+    form{margin: 10px 0;padding-bottom: 30px;}
+    form input{width: 250px;}
+    ::placeholder{font-size: .8rem;}
+    form button{font-size: .8rem;}
+
+/* footer */
+    footer P{font-size: .8rem;}
+        
+}
+ 
+
+@media screen and (max-width: 399px){
+/* NavBAr and Hero section */
+    /* header{
+        background-color: rgb(10, 22, 243);
+    } */
+    header{padding: 10px 0;}
+    .container{max-width: 350px;margin: 0 auto;}
+
+/* Mobile Navlist */
+    .overlay a{padding: 8px;font-size: 1.5rem;}
+    .overlay .closebtn {top: 0;right: 10px;font-size: 3rem;}
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 1rem}
+        .overlay .closebtn {
+        font-size: 2rem;
+        top: 0;
+        right: 0;
+        }
+    }
+
+/* Song section */
+    .playlist .dc h3{font-size: 1.2rem;}
+    .playlist .dc p{font-size: .9rem;}
+    .songs-section h2{font-size: 1.2rem;margin: 40px 0;}
+    .box{height: 210px;width: 210px;}
+    .img-con img{height: 140px;width: 140px;}
+    .play-con img{height: 20px;width: 20px;}
+    .imaGe{height: 400px;width: 300px;}
+    .icon img{height: 20px;width: 20px;}
+    .icon svg{height: 20px;width: 20px;}
+
+
+/* About me */
+    #about-me{padding: 3rem 0;}
+    .about-me-text h2{font-size: 1rem;}
+    .about-me-text p{font-size: .9rem;}
+    .music-con{justify-self: center;}
+    .about-me-grid{display: grid;grid-template-columns: 1fr ;gap: 30px;}
+
+/* Contact section */
+    #contact{padding-top: -10px;}
+    .social{gap: 20px; padding: 10px 0;}
+    .social img{height: 20px;}
+    #contact .container h3{font-size: 1.1rem;max-width: 220px;}
+    #contact .container p{font-size: .8rem;max-width: 260px;}
+    form{margin: 10px 0;padding-bottom: 30px;}
+    form input{width: 200px; padding: 7px 20px;}
+    ::placeholder{font-size: .8rem;}
+    form button{font-size: .8rem;}
+
+/* footer */
+    footer P{font-size: .8rem;}
+        
+}
+
+   
+    
+    
+@media screen and (max-width: 320px){
+    /* header{
+        background-color: rgb(239, 96, 19);
+    } */
+    header{padding: 7px 0;}
+    .container{max-width: 350px;margin: 0 auto;}
+
+/* Mobile Navlist */
+    .overlay a{padding: 8px;font-size: 1.1rem;}
+    .overlay .closebtn {top: 0;right: 10px;font-size: 2.5rem;}
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 1rem}
+        .overlay .closebtn {
+        font-size: 2rem;
+        top: 0;
+        right: 0;
+        }
+    }
+
+/* Song section */
+    .playlist .dc h3{font-size: 1rem;}
+    .playlist .dc p{font-size: .8rem;}
+    .songs-section h2{font-size: 1rem;margin: 40px 0;}
+    .box{height: 150px;width: 150px;}
+    .img-con img{height: 95px;width: 95px;}
+    .play-con img{height: 15px;width: 15px;}
+    .icon img{height: 15px;width: 15px;}
+    .icon svg{height: 15px;width: 15px;}
+
+
+/* About me */
+    #about-me{padding: 3rem 0;}
+    .imaGe{height: 300px;width: 200px;}
+    .about-me-text h2{font-size: 1rem;}
+    .about-me-text p{font-size: .9rem;}
+    .music-con{justify-self: center;}
+    .about-me-grid{display: grid;grid-template-columns: 1fr ;gap: 30px;}
+
+/* Contact section */
+    #contact{padding-top: -10px;}
+    .social{gap: 20px; padding: 10px 0;}
+    .social img{height: 15px;}
+    #contact .container h3{font-size: 1rem;max-width: 200px;}
+    #contact .container p{font-size: .7rem;max-width: 260px;}
+    form{margin: 10px 0;padding-bottom: 30px;}
+    form input{width: 190px; padding: 7px 20px;}
+    ::placeholder{font-size: .8rem;}
+    form button{font-size: .8rem;}
+
+/* footer */
+    footer P{font-size: .7rem;}
+        
+/* Back to top */
+    .back-to-top {width: 30px; height: 30px; bottom: 10px;}
+}
+
+    
+
+
+
+/* iphone landscape */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+/* new media */
+
+@media only screen and (min-width: 3490px) and (max-width: 490px) {
+    
+}
