@@ -179,7 +179,7 @@
         background-color: rgb(10, 22, 243);
     } */
     header{padding: 10px 0;}
-    .container{max-width: 350px;margin: 0 auto;}
+    .container{max-width: 380px;margin: 0 auto;}
 
 /* Mobile Navlist */
     .overlay a{padding: 8px;font-size: 1.5rem;}
